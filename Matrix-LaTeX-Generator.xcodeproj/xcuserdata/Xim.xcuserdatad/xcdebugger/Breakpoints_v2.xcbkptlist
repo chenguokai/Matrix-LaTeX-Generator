@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/ViewController.swift"
-            timestampString = "552828716.755833"
+            timestampString = "579663926.197758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -88,11 +88,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/MainViewController.swift"
-            timestampString = "552824923.06925"
+            timestampString = "579663926.197844"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "grabData(a:b:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -104,27 +104,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/MainViewController.swift"
-            timestampString = "552824923.069299"
+            timestampString = "579663926.197888"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
-            landmarkName = "grabData(a:b:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Matrix-LaTeX-Generator/MainViewController.swift"
-            timestampString = "552824923.069344"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "grabData(a:b:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -136,7 +120,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/ViewController.swift"
-            timestampString = "552828716.756001"
+            timestampString = "579663926.197924"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"
@@ -152,7 +136,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/Algo.swift"
-            timestampString = "552828716.756061"
+            timestampString = "579663926.1979589"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -168,11 +152,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/MainViewController.swift"
-            timestampString = "552824923.069732"
+            timestampString = "579663926.197994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "grabData(a:b:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -184,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/MainViewController.swift"
-            timestampString = "552824923.0697809"
+            timestampString = "579663926.198028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "grabData(a:b:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -200,12 +184,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "File_Manager.c"
-            timestampString = "552829070.956912"
+            timestampString = "553577703.026649"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "readStr"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "readStr()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -216,12 +200,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "File_Manager.c"
-            timestampString = "552829070.9572411"
+            timestampString = "553577703.026955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "readStr"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "readStr()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -232,11 +216,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/Algo.swift"
-            timestampString = "552828716.756698"
+            timestampString = "579663926.198086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "Gen_LaTeX()"
             landmarkType = "9">
          </BreakpointContent>
@@ -248,12 +232,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "File_Manager.c"
-            timestampString = "552829070.957463"
+            timestampString = "553577703.0272191"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "readStr"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "readStr()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -264,12 +248,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "File_Manager.c"
-            timestampString = "552829070.957665"
+            timestampString = "553577703.027429"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "readStr"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "readStr()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -280,11 +264,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/Algo.swift"
-            timestampString = "552828716.7571599"
+            timestampString = "579663926.198141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "Gen_LaTeX()"
             landmarkType = "9">
          </BreakpointContent>
@@ -296,11 +280,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/Algo.swift"
-            timestampString = "552828716.757225"
+            timestampString = "579663926.198177"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "Gen_LaTeX()"
             landmarkType = "9">
          </BreakpointContent>
@@ -312,12 +296,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Matrix-LaTeX-Generator/Algo.swift"
-            timestampString = "552828716.7572711"
+            timestampString = "579663926.198211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "Gen_LaTeX()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Matrix-LaTeX-Generator/Algo.swift"
+            timestampString = "579663926.198243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "Gen_LaTeX()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "File_Manager.c"
+            timestampString = "553577703.027812"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "readStr()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "File_Manager.c"
+            timestampString = "553577703.028018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "readStr()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "File_Manager.c"
+            timestampString = "553577703.028224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "writeLaTeXToFile()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

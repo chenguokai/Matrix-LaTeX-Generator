@@ -11,6 +11,9 @@
             <PersistentString
                value = "y">
             </PersistentString>
+            <PersistentString
+               value = "path">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
    </ContextStates>

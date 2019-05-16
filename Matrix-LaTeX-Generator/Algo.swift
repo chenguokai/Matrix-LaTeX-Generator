@@ -10,7 +10,7 @@ import Foundation
 import Cocoa
 //This file stores the algorithms used in the program
 
-var dataArray = Array2D(columns: 6, rows: 6, initialValue: " ") //-1:empty
+var dataArray = Array2D(columns: 7, rows: 7, initialValue: " ") //-1:empty
 var x = 0, y = 0
 func GetXY(a: Int, b: Int) {
     x = a;
@@ -19,7 +19,11 @@ func GetXY(a: Int, b: Int) {
 var MatrixSymbol:String = "A"
 
 func Gen_LaTeX() -> String { //May be able to be used in calculator
-    //let homeDir = NSHomeDirectory()
+    var bufferSize:UInt32 = 1000  //the length for the buffer
+    _NSGetExecutablePath(pathProvider(), &bufferSize)
+    //var homeDirC = pathProvider()
+    //homeDirC?.assign(from: homeDir, count: homeDir.lengthOfBytes(using: String.Encoding.ascii))  //OK,works fine for C to get path!
+    //print(homeDirC)
     var ret:String = ""
     var a:String = ""
     
@@ -33,10 +37,10 @@ func Gen_LaTeX() -> String { //May be able to be used in calculator
             ret = ret + dataArray[i,j] + " & "
         }
         ret = String(ret.dropLast())
-        ret = String(ret.dropLast())
+        ret = String(ret.dropLast())  //remove the last two characters to maintain a proper format
         //_ = ret.dropLast()
         if i < x {
-            ret.append("\\\\\n")
+            ret.append("\\\\\n") //ugly code I wanted to avoid
         }
     }
     b = String.init(cString: readStr(2))
@@ -44,53 +48,18 @@ func Gen_LaTeX() -> String { //May be able to be used in calculator
     return ret
 }
 
-public struct Array2D<T> { //a kind of 2D array
-    public let columns: Int
-    public let rows: Int
-    fileprivate var array: [T]
-    
-    public init(columns: Int, rows: Int, initialValue: T) {
-        self.columns = columns
-        self.rows = rows
-        array = .init(repeating: initialValue, count: rows*columns)
-    }
-    
-    public subscript(column: Int, row: Int) -> T {
-        get {
-            precondition(column < columns, "Column \(column) Index is out of range. Array<T>(columns: \(columns), rows:\(rows))")
-            precondition(row < rows, "Row \(row) Index is out of range. Array<T>(columns: \(columns), rows:\(rows))")
-            return array[row*columns + column]
-        }
-        set {
-            precondition(column < columns, "Column \(column) Index is out of range. Array<T>(columns: \(columns), rows:\(rows))")
-            precondition(row < rows, "Row \(row) Index is out of range. Array<T>(columns: \(columns), rows:\(rows))")
-            array[row*columns + column] = newValue
-        }
+
+
+
+
+func LaTeXToFile(path: String) {
+    let FilePathC = pathProviderForFileOutput()
+    FilePathC?.assign(from: path,count: path.lengthOfBytes(using: String.Encoding.ascii))
+    let FileContentC = contentProviderForLaTeXOutput()
+    var contentString = Gen_LaTeX()
+    contentString = patchContentForOutput(origin: contentString)
+    FileContentC?.assign(from: contentString,count: contentString.lengthOfBytes(using: String.Encoding.ascii)) //need all data to be ok
+    if writeLaTeXToFile() == 1 {
+        //ok
     }
 }
-
-extension NSAlert { //quickly send an alert
-    
-    static func showAlert(title: String?, message: String?, style: NSAlert.Style = .informational) {
-        let alert = NSAlert()
-        if let title = title {
-            alert.messageText = title
-        }
-        if let message = message {
-            alert.informativeText = message
-        }
-        alert.alertStyle = style
-        alert.runModal()
-    }
-    
-}
-
-func copyToClipBoard(textToCopy: String) {
-    let pasteBoard = NSPasteboard.general
-    pasteBoard.clearContents()
-    pasteBoard.setString(textToCopy, forType: .string)
-    
-}
-
-
-

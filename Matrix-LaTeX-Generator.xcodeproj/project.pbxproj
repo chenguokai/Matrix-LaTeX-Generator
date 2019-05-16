@@ -13,6 +13,7 @@
 		2602E76D20EA854F0076E7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2602E76B20EA854F0076E7D4 /* Main.storyboard */; };
 		2634A87B20EB999C005EE970 /* Algo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2634A87A20EB999C005EE970 /* Algo.swift */; };
 		2687292E20F348AB00F04924 /* File_Manager.c in Sources */ = {isa = PBXBuildFile; fileRef = 2687292D20F348AB00F04924 /* File_Manager.c */; };
+		2687293020F4EDCE00F04924 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2687292F20F4EDCE00F04924 /* Utilities.swift */; };
 		26A48F5320F20B90005951CF /* EssentialStrings in Resources */ = {isa = PBXBuildFile; fileRef = 26A48F5220F20B90005951CF /* EssentialStrings */; };
 		26D9E2B220F1F64E008CDEF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9E2B120F1F64E008CDEF8 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		2687292B20F348AA00F04924 /* Matrix-LaTeX-Generator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matrix-LaTeX-Generator-Bridging-Header.h"; sourceTree = "<group>"; };
 		2687292C20F348AB00F04924 /* File_Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File_Manager.h; sourceTree = "<group>"; };
 		2687292D20F348AB00F04924 /* File_Manager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = File_Manager.c; sourceTree = "<group>"; };
+		2687292F20F4EDCE00F04924 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2687293120F4FAD900F04924 /* Matrix-LaTeX-Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Matrix-LaTeX-Generator.entitlements"; sourceTree = "<group>"; };
 		26A48F5220F20B90005951CF /* EssentialStrings */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialStrings; sourceTree = "<group>"; };
 		26D9E2B120F1F64E008CDEF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,10 +70,12 @@
 		2602E76420EA854D0076E7D4 /* Matrix-LaTeX-Generator */ = {
 			isa = PBXGroup;
 			children = (
+				2687293120F4FAD900F04924 /* Matrix-LaTeX-Generator.entitlements */,
 				2602E76520EA854D0076E7D4 /* AppDelegate.swift */,
 				2602E76720EA854D0076E7D4 /* ViewController.swift */,
 				26D9E2B120F1F64E008CDEF8 /* MainViewController.swift */,
 				2634A87A20EB999C005EE970 /* Algo.swift */,
+				2687292F20F4EDCE00F04924 /* Utilities.swift */,
 				26A48F5220F20B90005951CF /* EssentialStrings */,
 				2634A87C20EB99C2005EE970 /* README.md */,
 				2602E76920EA854F0076E7D4 /* Assets.xcassets */,
@@ -113,10 +118,10 @@
 				TargetAttributes = {
 					2602E76120EA854D0076E7D4 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -158,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2687293020F4EDCE00F04924 /* Utilities.swift in Sources */,
 				2634A87B20EB999C005EE970 /* Algo.swift in Sources */,
 				2687292E20F348AB00F04924 /* File_Manager.c in Sources */,
 				2602E76820EA854D0076E7D4 /* ViewController.swift in Sources */,
@@ -298,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Matrix-LaTeX-Generator/Matrix-LaTeX-Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9B74EE253N;
@@ -311,7 +318,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Matrix-LaTeX-Generator-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -320,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Matrix-LaTeX-Generator/Matrix-LaTeX-Generator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9B74EE253N;
@@ -332,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Xim.Matrix-LaTeX-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Matrix-LaTeX-Generator-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
